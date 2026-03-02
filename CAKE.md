@@ -20,7 +20,6 @@ def build_dataset(tfrecord_paths, batch_size=16):
 <h3 style="font-family: '田氏颜体大字库',serif; font-weight: light;">第二部分：自定义损失函数</h3>
 <h3 style="font-family: '田氏颜体大字库', serif; font-weight: light;">模型需要确保解码后的声纹图与原图一致。这里使用均方误差衡量重建损失。</h3>
 
-# ![image.png](5f9f8aaa-2f8a-429a-a465-8ec1427f85d0.png)
 <img width="596" height="320" alt="5f9f8aaa-2f8a-429a-a465-8ec1427f85d0" src="https://github.com/user-attachments/assets/5fc14910-8007-45b1-a419-133401f04b78" />
 
 <h3 style="font-family: '田氏颜体大字库',serif; font-weight: light;">第三部分：自定义训练循环</h3>
